@@ -100,3 +100,6 @@ footer span:hover{
     color: white;
 
 }
+#locationInput::placeholder {
+  color: #757575;
+}
