@@ -31,7 +31,7 @@ function getLocation() {
 getLocation()
 
 async function getWeather(city) {
-    let data = await (await fetch(`http://api.weatherapi.com/v1/forecast.json?key=d3009501cfbc4064b78131238252607&q=${city}&days=3`)).json()
+    let data = await (await fetch(`https://api.weatherapi.com/v1/forecast.json?key=d3009501cfbc4064b78131238252607&q=${city}&days=3`)).json()
     cityName.innerText = data.location.name;
     weatherDeg.innerHTML = data.current.temp_c + "<sup>o</sup>C";
 
