@@ -72,9 +72,10 @@ async function getWeather(city) {
             await getWeather(citySearchValue); 
         } catch (err) {
             console.error( err);
-        }else if (citySearchValue.length==0) {
-        getLocation()
+        }
     }
+        else if (citySearchValue.length==0) {
+        getLocation()
     }
 });
 
