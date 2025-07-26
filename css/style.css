@@ -1,0 +1,102 @@
+nav {
+    background-color: #1E202B;
+    color: white;
+
+}
+
+.main {
+    background-image: url("../images/banner.png");
+    background-size: 100% 50%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-color: #1E202B;
+}
+
+#locationInput {
+    background-color: #1E202B;
+    padding: 18px;
+    color: white;
+    outline: none;
+    border: none;
+}
+form{
+    display: flex;
+    align-items: center;
+}
+
+#findLocation{
+    position: absolute;
+    
+    padding: 10px 40px;
+    right: 10px;
+}
+.weather-card{
+    background-color: #323544;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+.weather-tittle{
+    background-color: #2D303D;
+    color: #BFC1C8;
+    padding: 8px 10px;
+}
+p{
+    color: #BFC1C8;
+
+}
+h1{
+    color: white;
+    font-size: 90px;
+    font-weight: 500;
+}
+#cityName{
+    color: #BFC1C8;
+    font-size: large;
+    font-weight: 500;
+    
+}
+.weather-card2{
+    background-color: #262936;
+
+}
+.weather-tittle2{
+    background-color: #222530;
+    color: #BFC1C8;
+    padding: 8px 10px;
+}
+
+footer{
+    background-color: #262936;
+    padding-block: 50px;
+}
+footer form .inp{
+    background-color: #1E202B;
+    color: white;
+    outline: none;
+    border: none;
+}
+footer form .btn{
+    right: 10px;
+}
+
+footer span{
+    background-color: #1E202B;
+    color: #009AD8;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+    
+}
+footer span:hover{
+    background-color: #009AD8;
+    color: white;
+
+}
